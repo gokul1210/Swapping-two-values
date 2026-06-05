@@ -18,7 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+```
+a = int(input())
+b = int(input())
+print("Before swapping a and b are",a,b)
+temp = a
+a = b 
+b = temp
+print("After swapping a and b are",a,b)
+```
+<img width="1328" height="689" alt="image" src="https://github.com/user-attachments/assets/d056927c-a280-47d5-9d82-f198216e898a" />
 
 
 ## RESULT:
